@@ -1,0 +1,69 @@
+# ==============================================================================
+# DevPilot Root .gitignore
+# ==============================================================================
+
+# Compiled & Build Outputs
+**/target/
+**/dist/
+**/dist-ssr/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Node & Package Managers
+**/node_modules/
+.pnpm-store/
+.npm/
+
+# Environment Variables & Secrets
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# IDEs & Editors
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/*
+!.vscode/extensions.json
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+.apt_generated/
+.factorypath
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs, Dumps & Temporary Files
+*.log
+logs/
+*.dump
+*.dumpstream
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+thread-dump*.txt
+javac_args*.txt
+
+# Maven Wrapper Executable Jar
+.mvn/wrapper/maven-wrapper.jar
